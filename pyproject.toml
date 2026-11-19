@@ -1,0 +1,27 @@
+[project]
+name = "ldct-iqa-quality-map-audit"
+version = "1.0.0"
+description = "Auditing regional low-dose CT quality maps with localized artifact injection"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src"]
+
+[tool.ruff.lint]
+extend-select = ["I", "N", "ANN", "D1"]
+ignore = ["D105", "D107"]
+
+[tool.ruff.lint.per-file-ignores]
+# scripts/ add src/ to sys.path before importing project modules
+"scripts/*.py" = ["E402"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["artifacts", "audit", "cli", "config", "data", "figures", "map_sources",
+                     "metrics", "models", "patches", "preprocessing", "roi", "stats", "tables",
+                     "training"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

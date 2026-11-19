@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data, checkpoints and run outputs (never committed)
+data/
+outputs/
+*.pth
+*.pt
+*.tif
+*.tiff
+
+# Notebooks checkpoints and OS files
+.ipynb_checkpoints/
+.DS_Store
