@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "ldct-iqa-quality-map-audit"
+authors:
+  - family-names: "Ocal"
+    given-names: "Mervan"
+    affiliation: "Istanbul Technical University"
+  - family-names: "Ünal"
+    given-names: "Mehmet Ozan"
+    affiliation: "Istanbul Technical University"
+  - family-names: "Ertaş"
+    given-names: "Metin"
+    affiliation: "Istanbul Technical University"
+  - family-names: "Yıldırım"
+    given-names: "İsa"
+    affiliation: "Istanbul Technical University"
+repository-code: "https://github.com/itu-biai/ldct-iqa-quality-map-audit"
+license: "CC-BY-NC-4.0"
+preferred-citation:
+  type: conference-paper
+  title: "Do Quality Maps Point at the Artifact? Auditing Regional Low-Dose CT Quality Assessment"
+  authors:
+    - family-names: "Ocal"
+      given-names: "Mervan"
+    - family-names: "Ünal"
+      given-names: "Mehmet Ozan"
+    - family-names: "Ertaş"
+      given-names: "Metin"
+    - family-names: "Yıldırım"
+      given-names: "İsa"
+  collection-title: "IEEE International Symposium on Biomedical Imaging (ISBI)"
+  year: 2027
+  notes: "Under review"
